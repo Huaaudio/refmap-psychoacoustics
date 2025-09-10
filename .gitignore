@@ -250,3 +250,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Resources folder
+res/JPEL_WM/
+
+# CLAUDE Code
+CLAUDE.md

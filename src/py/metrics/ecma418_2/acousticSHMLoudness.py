@@ -384,6 +384,7 @@ def acousticSHMLoudness(p, sampleRateIn, axisN=0, soundField='freeFrontal',
         loudnessSHM.update({'timeOut': timeOut})
         loudnessSHM.update({'soundField': soundField})
     else:
+        loudnessSHM = {}
         loudnessSHM.update({'specLoudness': specLoudness})
         loudnessSHM.update({'specTonalLoudness': specTonalLoudness})
         loudnessSHM.update({'specNoiseLoudness': specNoiseLoudness})
